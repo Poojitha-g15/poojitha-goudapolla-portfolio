@@ -1,267 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Poojitha Goudapolla, Software Engineer, Full-Stack Java Developer, and AI/ML enthusiast based in Charlotte, NC." />
-  <title>Poojitha Goudapolla | Software Engineer</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100c28">
+  <meta name="description" content="Poojitha Goudapolla — full-stack software engineer building intuitive experiences and reliable cloud-native systems.">
+  <meta property="og:title" content="Poojitha Goudapolla | Software Engineer">
+  <meta property="og:description" content="Full-stack engineering, backend systems, and creative technology. Explore the portfolio.">
+  <title>Poojitha Goudapolla — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">Poojitha Goudapolla</a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#contact">Contact</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Poojitha Goudapolla home"><span class="brand-icon">PG<span class="brand-spark">✦</span></span><span>POOJITHA<span class="brand-dot">.</span>DEV</span></a>
+    <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Experience</a><a href="#projects">Projects</a><a href="#stack">Stack</a><a href="#contact">Contact</a>
     </nav>
+    <a class="header-cta" href="mailto:goudapollap@gmail.com">LET'S TALK <span aria-hidden="true">↗</span></a>
   </header>
-  <main>
-    <section id="home" class="hero section">
-      <div class="hero-text">
-        <p class="eyebrow">Hello, I'm</p>
-        <h1>Poojitha Goudapolla</h1>
-        <h2>Software Engineer</h2>
-        <p class="hero-summary">
-          MS Computer Science graduate (Data Science concentration) from UNC Charlotte with experience building Java backends, full-stack applications, REST APIs, and cloud-native systems.
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="assets/Poojitha_Goudapolla_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
-          <a class="btn secondary" href="#projects">View Projects</a>
-        </div>
-        <div class="quick-info">
-          <span>📍 Charlotte, NC</span>
-          <a href="mailto:gpoojitha1502@gmail.com">✉️ gpoojitha1502@gmail.com</a>
-          <a href="tel:+12522584303">📞 (252) 258-4303</a>
-        </div>
-        <div class="social-links">
-          <a href="https://linkedin.com/in/poojitha-goudappolla" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://github.com/Poojitha-g15" target="_blank" rel="noopener">GitHub</a>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-scene" aria-hidden="true">
+        <div class="sun-halo"></div><div class="sun"></div><div class="horizon"></div>
+        <div class="city city-far"></div><div class="city city-near"></div><div class="palms palm-left">✳</div><div class="palms palm-right">✳</div>
+        <div class="grid-floor"></div><div class="scanline"></div>
+      </div>
+      <div class="hero-content wrap">
+        <div class="hero-status"><span class="status-led"></span> AVAILABLE FOR SOFTWARE ENGINEERING OPPORTUNITIES <span class="hero-status-arrow">↗</span></div>
+        <div class="hero-small">ENGINEER. BUILDER. PROBLEM SOLVER.</div>
+        <h1 id="hero-title">POOJITHA<br><span>GOUDAPOLLA<span class="period">.</span></span></h1>
+        <div class="hero-bottom">
+          <div class="hero-desc"><span class="line-marker"></span><p>I turn complex ideas into <strong>fast, thoughtful digital experiences.</strong> Full-stack software engineer working across Java, React, cloud, and data.</p></div>
+          <div class="hero-actions"><a class="btn btn-hot" href="#projects">EXPLORE MY WORK <span>↗</span></a><a class="btn btn-ghost" href="assets/Poojitha_Goudapolla_Resume.pdf" target="_blank" rel="noopener noreferrer">VIEW RESUME <span>↗</span></a></div>
         </div>
       </div>
-      <div class="hero-image-card">
-        <img src="assets/profile.png" alt="Poojitha Goudapolla profile photo" />
-      </div>
+      <div class="hero-bottom-bar"><span>CHARLOTTE, NC <i></i> OPEN TO RELOCATION</span><span class="scroll-cue">SCROLL TO EXPLORE ↓</span><span>01 / 05</span></div>
     </section>
-    <section id="about" class="section two-column">
-      <div>
-        <p class="eyebrow">About Me</p>
-        <h2>Building reliable full-stack and AI-focused software</h2>
-      </div>
-      <div class="section-copy">
-        <p>
-          I am an MS Computer Science graduate (Data Science concentration) from the University of North Carolina at Charlotte with hands-on experience building backend services, full-stack applications, REST APIs, microservices, and cloud-native systems on AWS.
-        </p>
-        <p>
-          My core stack is Java, Spring Boot, React, and Python. I enjoy connecting clean backend architecture with usable frontend experiences and applying data science and machine learning to real-world problems. My research on SVM-based cybersecurity threat detection was published in the <em>Industrial Engineering Journal, 2024</em>.
-        </p>
-        <p>
-          I am actively seeking entry-level Software Engineer, Java Developer, Full-Stack Developer, and data-adjacent SWE roles where I can contribute across backend, frontend, and data-driven systems.
-        </p>
-      </div>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track">FULL STACK DEVELOPMENT <b>✦</b> BACKEND ENGINEERING <b>✦</b> CLOUD & DEVOPS <b>✦</b> DATA & AI <b>✦</b> BUILD SOMETHING GREAT <b>✦</b> FULL STACK DEVELOPMENT <b>✦</b> BACKEND ENGINEERING <b>✦</b> CLOUD & DEVOPS <b>✦</b> DATA & AI <b>✦</b> BUILD SOMETHING GREAT <b>✦</b></div></div>
+
+    <section class="section about" id="about">
+      <div class="wrap about-grid"><div class="section-label"><span class="section-index">01 /</span> WHO I AM</div><div class="about-main reveal">
+        <h2>BUILDING THE <em>NEXT</em><br>BIG THING.</h2>
+        <p class="big-copy">I'm Poojitha, a full-stack developer who enjoys making complicated systems feel simple to use.</p>
+        <p>I earned my Master's in Computer Science (Data Science concentration) from the University of North Carolina at Charlotte. My work spans REST APIs, Java and Spring Boot services, React interfaces, SQL databases, automated testing, and cloud-native deployment workflows.</p>
+        <div class="about-details"><div><span>BASED IN</span><strong>Charlotte, North Carolina</strong></div><div><span>FOCUSED ON</span><strong>Full-stack & backend engineering</strong></div><div><span>EDUCATION</span><strong>M.S. Computer Science · 2026</strong></div></div>
+      </div></div>
     </section>
-    <section class="section">
-      <p class="eyebrow">What I Do</p>
-      <h2>Simple focus areas</h2>
-      <div class="cards three-cards">
-        <article class="card">
-          <div class="icon">💻</div>
-          <h3>Full-Stack Development</h3>
-          <p>Build responsive web applications with React, TypeScript, JavaScript, Node.js, Express.js, REST APIs, and clean UI flows.</p>
-        </article>
-        <article class="card">
-          <div class="icon">⚙️</div>
-          <h3>Backend &amp; Microservices</h3>
-          <p>Develop Java and Spring Boot services with PostgreSQL, Oracle, MongoDB, Redis, Kafka, RabbitMQ, Docker, and API security.</p>
-        </article>
-        <article class="card">
-          <div class="icon">🤖</div>
-          <h3>AI / ML / Data Science</h3>
-          <p>Build data pipelines, recommendation engines, and ML-powered applications using Python, Scikit-learn, TF-IDF, PyTorch, and TensorFlow.</p>
-        </article>
-      </div>
-    </section>
-    <section id="skills" class="section">
-      <p class="eyebrow">Tech Stack</p>
-      <h2>Technical skills</h2>
-      <div class="skill-grid">
-        <div class="skill-card">
-          <h3>Languages</h3>
-          <p>Java, Python, JavaScript, TypeScript, SQL, C#, C++, HTML5, CSS3, Go, PHP</p>
-        </div>
-        <div class="skill-card">
-          <h3>Backend</h3>
-          <p>Spring Boot, J2EE, Hibernate/JPA, Spring Security, REST APIs, Microservices, Node.js, Express.js, Django, GraphQL</p>
-        </div>
-        <div class="skill-card">
-          <h3>Frontend</h3>
-          <p>React.js, Redux, Angular (RxJS), TypeScript, JavaScript, Single Page Applications, HTML5, CSS3</p>
-        </div>
-        <div class="skill-card">
-          <h3>Data / ML</h3>
-          <p>Pandas, NumPy, Scikit-learn, TF-IDF, Cosine Similarity, PyTorch, TensorFlow, Machine Learning, NLP</p>
-        </div>
-        <div class="skill-card">
-          <h3>Databases</h3>
-          <p>PostgreSQL, MySQL, Oracle, MongoDB, Redis, Elasticsearch, Microsoft SQL Server (T-SQL)</p>
-        </div>
-        <div class="skill-card">
-          <h3>Cloud &amp; DevOps</h3>
-          <p>AWS (EC2, S3, RDS, Lambda, API Gateway, ECS, SNS, SQS), Azure, Docker, Kubernetes, Jenkins, Terraform, Maven, Git, CI/CD</p>
-        </div>
-        <div class="skill-card">
-          <h3>Testing &amp; Security</h3>
-          <p>JUnit, Jest, Cypress, React Testing Library, Selenium, Postman, JWT, OAuth2, RBAC</p>
+
+    <section class="section experience" id="work">
+      <div class="wrap"><div class="section-head"><span class="section-label"><span class="section-index">02 /</span> EXPERIENCE</span><h2 class="reveal">THE JOURNEY<br><span>SO FAR.</span></h2></div>
+        <div class="experience-list">
+          <article class="experience-item reveal"><div class="exp-num">01</div><div><div class="exp-meta">MAY 2025 — MAY 2026 <span>·</span> CHARLOTTE, NC</div><h3>Information Specialist</h3><p class="exp-company">UNIVERSITY OF NORTH CAROLINA AT CHARLOTTE</p><p>Supported campus information workflows through SQL-based records, reporting, documentation, data validation, issue tracking, and cross-team coordination.</p><div class="tags"><span>SQL</span><span>Data validation</span><span>Documentation</span><span>Agile workflows</span></div></div><div class="exp-arrow">↗</div></article>
+          <article class="experience-item reveal"><div class="exp-num">02</div><div><div class="exp-meta">JUNE 2023 — DECEMBER 2024 <span>·</span> INDIA</div><h3>Software Engineer</h3><p class="exp-company">GEMINI CONSULTING AND SERVICES</p><p>Built Java/Spring Boot APIs and integrated React and TypeScript interfaces. Contributed to microservice deployments, CI/CD pipelines, automated tests, and code reviews.</p><div class="tags"><span>Java</span><span>Spring Boot</span><span>React</span><span>Docker</span><span>CI/CD</span></div></div><div class="exp-arrow">↗</div></article>
         </div>
       </div>
     </section>
-    <section id="experience" class="section">
-      <p class="eyebrow">Work Experience</p>
-      <h2>Professional experience</h2>
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-date">Mar 2025 – May 2026</div>
-          <div class="timeline-content">
-            <h3>Software Engineer</h3>
-            <h4>University of North Carolina at Charlotte</h4>
-            <ul>
-              <li>Built and maintained responsive Single Page Application components using React and Redux for the university portal, improving student access to academic resources and financial services.</li>
-              <li>Designed and enhanced REST APIs and GraphQL endpoints using Node.js and Express.js, integrating MongoDB with secure role-based access and multi-tenant data architecture.</li>
-              <li>Migrated application infrastructure to Docker and Kubernetes, achieving a 40% improvement in scalability and enabling zero-downtime deployments via Jenkins CI/CD pipelines.</li>
-              <li>Authored unit tests with Jest and React Testing Library and end-to-end tests with Cypress, cutting critical bugs by 35% in collaboration with QA teams.</li>
-              <li>Guided junior developers on distributed systems best practices, improving team productivity by 25%.</li>
-            </ul>
-          </div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-date">Jun 2023 – Mar 2024</div>
-          <div class="timeline-content">
-            <h3>Software Engineer</h3>
-            <h4>Gemini Consulting &amp; Services</h4>
-            <ul>
-              <li>Developed scalable payment microservices using Java, Spring Boot, and Hibernate, reducing transaction latency by 30% and increasing throughput across high-volume financial workflows.</li>
-              <li>Built and optimized REST APIs for real-time fund transfers, integrating PostgreSQL and Redis caching to handle high-throughput transaction loads efficiently.</li>
-              <li>Provisioned and maintained cloud infrastructure on AWS (EC2, S3, Lambda) and streamlined CI/CD pipelines with Jenkins and Terraform, cutting deployment times by 30%.</li>
-              <li>Implemented JWT-based authentication workflows to harden API security, reducing unauthorized access incidents by 50%.</li>
-              <li>Integrated RabbitMQ and Kafka into distributed payment systems, enabling reliable real-time event-driven data synchronization across services.</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section id="education" class="section">
-      <p class="eyebrow">Education</p>
-      <h2>Education</h2>
-      <div class="cards two-cards">
-        <article class="card">
-          <h3>Master of Science in Computer Science</h3>
-          <p><strong>Concentration: Data Science</strong></p>
-          <p>University of North Carolina at Charlotte</p>
-          <span>Charlotte, NC · May 2026</span>
-        </article>
-        <article class="card">
-          <h3>Bachelor of Engineering in Computer Science</h3>
-          <p>CMR College of Engineering &amp; Technology</p>
-          <span>India</span>
-        </article>
-      </div>
-      <div style="margin-top:1.5rem;padding:1rem 1.25rem;background:#f5f5f5;border-left:3px solid #333;border-radius:4px;">
-        <p style="margin:0;"><strong>Publication:</strong> Hyper-Heuristic SVM for Cybersecurity in Big Data &nbsp;|&nbsp; <em>Industrial Engineering Journal, 2024</em></p>
-      </div>
-    </section>
-    <section id="projects" class="section">
-      <p class="eyebrow">Projects</p>
-      <h2>Featured projects</h2>
+
+    <section class="section projects" id="projects">
+      <div class="wrap"><div class="section-head"><span class="section-label"><span class="section-index">03 /</span> SELECTED PROJECTS</span><h2 class="reveal">PROOF IN<br><span>THE BUILD.</span></h2><p>Real projects. Practical engineering. A few things I'm excited to share.</p></div>
       <div class="project-grid">
-        <article class="project-card featured">
-          <div class="project-topline">AI / Streamlit / Python</div>
-          <h3>Section 8 Navigators AI Copilot</h3>
-          <p>A Streamlit decision-support tool that helps voucher families and housing advocates understand affordability, filter counties and listings, and ask plain-English questions through a grounded AI-style copilot.</p>
-          <div class="tags">
-            <span>Python</span><span>Streamlit</span><span>AI Copilot</span><span>Data Apps</span><span>Recommendations</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/Poojitha-g15/section-8-navigators-team-12" target="_blank" rel="noopener">Source Code</a>
-            <a href="https://section-8-navigators-team-12.streamlit.app/" target="_blank" rel="noopener">Live App</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-topline">Java / Spring Boot / Microservices</div>
-          <h3>Payment Microservices Platform</h3>
-          <p>Three-service backend system (payment, validation, notification) with 15+ REST API endpoints for transaction creation, status tracking, and risk scoring. Includes Docker Compose setup, GitHub Actions CI, and 90%+ JUnit test coverage.</p>
-          <div class="tags">
-            <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Redis</span><span>Kafka</span><span>Docker</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/Poojitha-g15/payment-microservice-platform" target="_blank" rel="noopener">Source Code</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-topline">Python / FastAPI / ML</div>
-          <h3>CineMatch AI Platform</h3>
-          <p>Full-stack movie platform with user authentication (PBKDF2, token-based routes), watchlist management, and a content-based recommendation engine using TF-IDF vectorization and cosine similarity across 5,000+ movies. Delivers personalized suggestions with sub-300ms response time.</p>
-          <div class="tags">
-            <span>Python</span><span>FastAPI</span><span>Scikit-learn</span><span>SQLite</span><span>Docker</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/Poojitha-g15/cinematch-ai-platform" target="_blank" rel="noopener">Source Code</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="project-topline">AI / Simulation</div>
-          <h3>Autonomous Vehicle Navigation System</h3>
-          <p>AI simulation project using Neural Network + Genetic Algorithm and A* pathfinding for obstacle-aware autonomous vehicle navigation.</p>
-          <div class="tags">
-            <span>AI</span><span>Neural Networks</span><span>Genetic Algorithm</span><span>A*</span><span>Rust</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/Poojitha-g15/ITCS6150FinalProject" target="_blank" rel="noopener">Source Code</a>
-          </div>
-        </article>
-      </div>
+        <article class="project-card project-purple reveal"><div class="project-visual"><div class="project-number">01 / FEATURED</div><div class="visual-symbol ai-visual">✳</div><span class="visual-corner">AI / DATA</span></div><div class="project-info"><span class="overline">PYTHON · STREAMLIT · AI</span><h3>Section 8 Navigators AI Copilot</h3><p>A decision-support experience to help families and advocates explore housing affordability and understand their options.</p><div class="project-actions"><a href="https://github.com/Poojitha-g15/section-8-navigators-team-12" target="_blank" rel="noopener noreferrer">SOURCE ↗</a><a href="https://section-8-navigators-team-12.streamlit.app/" target="_blank" rel="noopener noreferrer">LIVE APP ↗</a></div></div></article>
+        <article class="project-card project-orange reveal"><div class="project-visual"><div class="project-number">02 / BACKEND</div><div class="visual-symbol payments-visual">⌁</div><span class="visual-corner">SYSTEMS / APIS</span></div><div class="project-info"><span class="overline">JAVA · SPRING BOOT · KAFKA</span><h3>Payment Microservices Platform</h3><p>Service-based payment processing with validation, notifications, REST endpoints, and containerized development workflows.</p><div class="project-actions"><a href="https://github.com/Poojitha-g15/payment-microservice-platform" target="_blank" rel="noopener noreferrer">EXPLORE SOURCE ↗</a></div></div></article>
+        <article class="project-card project-blue reveal"><div class="project-visual"><div class="project-number">03 / ML</div><div class="visual-symbol cinema-visual">◈</div><span class="visual-corner">RECOMMENDATIONS</span></div><div class="project-info"><span class="overline">PYTHON · FASTAPI · MACHINE LEARNING</span><h3>CineMatch AI Platform</h3><p>Movie discovery and watchlist application with API-driven experiences and content-based recommendations.</p><div class="project-actions"><a href="https://github.com/Poojitha-g15/cinematch-ai-platform" target="_blank" rel="noopener noreferrer">EXPLORE SOURCE ↗</a></div></div></article>
+        <article class="project-card project-pink reveal"><div class="project-visual"><div class="project-number">04 / SIMULATION</div><div class="visual-symbol auto-visual">◇</div><span class="visual-corner">AI / PATHFINDING</span></div><div class="project-info"><span class="overline">AI · NAVIGATION · ALGORITHMS</span><h3>Autonomous Vehicle Navigation</h3><p>A simulation exploring pathfinding and intelligent navigation through obstacle-aware environments.</p><div class="project-actions"><a href="https://github.com/Poojitha-g15/ITCS6150FinalProject" target="_blank" rel="noopener noreferrer">EXPLORE SOURCE ↗</a></div></div></article>
+      </div></div>
     </section>
-    <section id="certificates" class="section">
-      <p class="eyebrow">Certificates</p>
-      <h2>Certifications</h2>
-      <div class="cards three-cards">
-        <article class="card certificate-card">
-          <h3>AWS Certified Solutions Architect</h3>
-          <p>Amazon Web Services</p>
-          <a href="https://linkedin.com/in/poojitha-goudappolla" target="_blank" rel="noopener">View on LinkedIn</a>
-        </article>
-        <article class="card certificate-card">
-          <h3>AWS Certified Cloud Practitioner</h3>
-          <p>Amazon Web Services</p>
-          <a href="https://linkedin.com/in/poojitha-goudappolla" target="_blank" rel="noopener">View on LinkedIn</a>
-        </article>
-        <article class="card certificate-card">
-          <h3>Microsoft Certified Azure Fundamentals</h3>
-          <p>Microsoft</p>
-          <a href="https://linkedin.com/in/poojitha-goudappolla" target="_blank" rel="noopener">View on LinkedIn</a>
-        </article>
-      </div>
-    </section>
-    <section id="contact" class="section contact-section">
-      <p class="eyebrow">Get in Touch</p>
-      <h2>Open to new opportunities</h2>
-      <p>I am actively seeking Software Engineer, Java Developer, Full-Stack Developer, Backend Engineer, and data-adjacent SWE roles at the 0–2 year experience level.</p>
-      <div class="contact-links">
-        <a href="mailto:gpoojitha1502@gmail.com">Email</a>
-        <a href="tel:+12522584303">Phone</a>
-        <a href="https://linkedin.com/in/poojitha-goudappolla" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/Poojitha-g15" target="_blank" rel="noopener">GitHub</a>
-        <a href="assets/Poojitha_Goudapolla_Resume.pdf" target="_blank" rel="noopener">Resume</a>
-      </div>
-    </section>
+
+    <section class="section stack" id="stack"><div class="wrap"><div class="section-head"><span class="section-label"><span class="section-index">04 /</span> MY TOOLKIT</span><h2 class="reveal">THE TECH<br><span>BEHIND THE MAGIC.</span></h2></div>
+      <div class="stack-list reveal"><div class="stack-row"><span>01</span><h3>Languages</h3><p>Java · Python · JavaScript · TypeScript · C# · SQL</p></div><div class="stack-row"><span>02</span><h3>Frontend</h3><p>React · Redux · Angular · HTML · CSS</p></div><div class="stack-row"><span>03</span><h3>Backend</h3><p>Spring Boot · Node.js · Express · FastAPI · REST APIs</p></div><div class="stack-row"><span>04</span><h3>Data</h3><p>PostgreSQL · SQL Server · MongoDB · Oracle · Redis</p></div><div class="stack-row"><span>05</span><h3>Cloud & delivery</h3><p>AWS · Azure · Docker · Kubernetes · Jenkins · GitHub Actions</p></div><div class="stack-row"><span>06</span><h3>Quality</h3><p>JUnit · Mockito · Postman · Jest · Cypress · Selenium</p></div></div>
+      <div class="certs"><span class="section-label">CERTIFICATIONS & LEARNING</span><p>AWS Certified AI Practitioner <b>✦</b> Java Developer Certification <b>✦</b> Infosys Springboard</p></div>
+    </div></section>
+
+    <section class="contact" id="contact"><div class="contact-glow"></div><div class="wrap contact-inner"><span class="section-label"><span class="section-index">05 /</span> NEXT CHAPTER</span><p class="contact-pre">HAVE A PROJECT, ROLE, OR IDEA?</p><h2>LET'S MAKE<br><em>IT HAPPEN.</em></h2><div class="contact-actions"><a class="btn btn-light" href="mailto:goudapollap@gmail.com">GET IN TOUCH ↗</a><a class="btn btn-outline-light" href="https://www.linkedin.com/in/poojitha-goudappolla" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a></div><div class="contact-bottom"><a href="https://github.com/Poojitha-g15" target="_blank" rel="noopener noreferrer">GITHUB ↗</a><a href="mailto:goudapollap@gmail.com">GOUDAPOLLAP@GMAIL.COM ↗</a><span>CHARLOTTE, NC</span></div></div></section>
   </main>
-  <footer>
-    <p>© 2026 Poojitha Goudapolla | All rights reserved</p>
-  </footer>
-  <script src="script.js"></script>
+  <footer class="footer"><span>© 2026 POOJITHA GOUDAPOLLA</span><span>DESIGNED WITH CURIOSITY, BUILT WITH CODE ✦</span><a href="#top">BACK TO TOP ↑</a></footer>
 </body>
 </html>
