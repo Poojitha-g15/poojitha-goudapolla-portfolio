@@ -1,56 +1,24 @@
-# Poojitha Goudapolla Portfolio
+# Poojitha Goudapolla — Neon Portfolio
 
-A simple one-page portfolio website built with HTML, CSS, and JavaScript.
+A cinematic, neon-sunset personal portfolio inspired by the *energy* of open-world game promotional art, but with original CSS illustration, original layout, and no game logos/assets. Built with static HTML, CSS, and JavaScript. No build step.
 
-## Sections
+## Preview
 
-- Home
-- About
-- What I Do
-- Skills
-- Experience
-- Education
-- Projects
-- Certificates
-- Contact
+Open `index.html` in your browser or serve with `python -m http.server 8000`.
 
-## How to edit
+## Updating the existing repository
 
-Open these files in VS Code:
+Replace `index.html`, `style.css`, and `script.js` and optionally `README.md` in your existing repository. **Keep the `assets/` folder unchanged** so the existing resume PDF still works at `assets/Poojitha_Goudapolla_Resume.pdf`.
 
-- `index.html` for text, links, sections, and project details
-- `style.css` for colors, spacing, and layout
-- `script.js` for mobile menu behavior
-- `assets/profile.png` for profile photo
-- `assets/Poojitha_Goudapolla_Resume.pdf` for resume download
+## Customize
 
-## Local preview
+- Name, bio, education, experience, and links: `index.html`
+- Colors, scenes, typography, spacing: `style.css`
+- Mobile menu and scroll effects: `script.js`
+- Resume: replace `assets/Poojitha_Goudapolla_Resume.pdf` with your latest file
 
-Because this is a static website, you can open `index.html` directly in your browser.
+The design includes reduced-motion support, responsive mobile navigation, keyboard skip navigation, accessible contrast considerations, and original CSS-based artwork.
 
-For a better preview in VS Code:
+## LinkedIn
 
-1. Install the VS Code extension called **Live Server**.
-2. Right-click `index.html`.
-3. Click **Open with Live Server**.
-
-## Netlify settings
-
-No build command is needed.
-
-Publish directory:
-
-```text
-.
-```
-
-## GitHub commands
-
-```bash
-git init
-git add .
-git commit -m "Add simple portfolio"
-git branch -M main
-git remote add origin https://github.com/Poojitha-g15/poojitha-goudapolla-portfolio.git
-git push -u origin main
-```
+Use the public deployment URL (not the `.git` repository clone link) in LinkedIn > Profile > Contact info > Website, and optionally add it to Featured. If GitHub Pages is enabled for this repository, a typical URL is `https://poojitha-g15.github.io/poojitha-goudapolla-portfolio/`; verify deployment before sharing.
